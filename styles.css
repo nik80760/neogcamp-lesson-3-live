@@ -1,15 +1,6 @@
- body{
-    color: green
- }
- h1{
-    color:aqua
- }
- h2{
-    color:blueviolet
- }
- h3{
-    color:dodgerblue
- }
- p{
-    color:brown
- }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Poppins:ital,wght@1,100&display=swap');
+
+body{
+    font-family: 'Montserrat', 
+    sans-serif;
+}
