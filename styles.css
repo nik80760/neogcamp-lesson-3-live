@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: red;
+    --primary-color: #6d28d9;
 }
 body{
     font-family: 'Montserrat', 
@@ -11,7 +11,7 @@ body{
 
 
 .container{
-    padding-left: 0rem;
+    padding-left: 0 rem;
     padding-right:1 rem;
 
 
@@ -25,18 +25,25 @@ body{
 .link{
     text-decoration: none;
     padding:0.5rem 1 rem;
+    
+    background-color: #6d28d9;
+    
 }
 
-.primary-link{
-    background-color:var
-    (--primary-color);
-    border-radius:0.5rem;
-    color:brown
-    
-    
+.link-primary{
+   
+    border-radius: 0.5rem;
+    color: white;
     
 
+    
 
+}
+.link-secondary{
+    
+    color:aliceblue;
+    border-radius: 0.5rem;
+    border: 1px solid var
 }
 
 
