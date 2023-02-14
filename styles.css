@@ -90,6 +90,7 @@ body{
     } 
     .hero .hero-heading {
         color:var(--gray-color);
+        text-align: center;
         padding-top: 1rem;
     }
     .hero .hero-heading .
@@ -111,6 +112,17 @@ body{
 }
 .ow{
     background-color:var(--light-gray);
+}
+
+footer{
+    background-color: #cbd5e1;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.link{
+    color:white;
+    background-color: var(--gray-color);
+    padding: 5px; 
 }
 
     
