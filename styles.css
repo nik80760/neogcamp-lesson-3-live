@@ -3,6 +3,10 @@
 
 :root{
     --primary-color: #6d28d9;
+    --off-white: #f8fafc;
+    --light-gray:#cbd5e1;
+
+    --gray-color: #64748b;
 }
 body{
     font-family: 'Montserrat', 
@@ -73,3 +77,42 @@ body{
     color:aliceblue;
 
     }
+
+    .hero{
+        padding:2rem;
+    }
+
+
+    .hero.hero-img{
+        max-width: 350px;
+        display:block;
+        place-items: center;
+    } 
+    .hero .hero-heading {
+        color:var(--gray-color);
+        padding-top: 1rem;
+    }
+    .hero .hero-heading .
+    heading-inverted {
+        color:var(--primary-color);
+        
+    }
+.section{
+    padding:2 rem;
+    
+    
+
+}
+
+.section  h1{
+
+ text-align: center;
+    
+}
+.ow{
+    background-color:var(--light-gray);
+}
+
+    
+
+  
